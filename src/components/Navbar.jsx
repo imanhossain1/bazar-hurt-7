@@ -7,6 +7,7 @@ import { authClient } from "../lib/auth-client";
 import { toast } from "react-toastify";
 import CategoryNav from "./CategoryNav";
 
+
 function Navbar() {
     const router = useRouter();
 
@@ -15,6 +16,10 @@ function Navbar() {
     });
 
     const { data: session, isPending } = authClient.useSession();
+
+ if(isPending){
+    return  <span className="loading loading-spinner loading-md text-primary"></span>
+                        }
 
     const handleLogout = async () => {
         const { error } = await authClient.signOut();
@@ -54,9 +59,7 @@ function Navbar() {
                     {/* Authentication */}
                     <div className="flex shrink-0 items-center gap-2">
 
-                        {isPending ? (
-                            <span className="loading loading-spinner loading-md text-primary"></span>
-                        ) : session?.user ? (
+                        {  session?.user ? (
                             <div className="dropdown dropdown-end">
                                 <button
                                     type="button"
