@@ -1,10 +1,9 @@
+
 import Link from "next/link";
 import { getCategories } from "../lib/api";
 
 async function CategoryNav() {
     const categories = await getCategories();
-
-    console.log(categories, "category data");
 
     return (
         <nav className="border-t border-base-300">

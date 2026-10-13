@@ -32,7 +32,7 @@ function Hero() {
             {/* Right Side: Hero Image */}
             <div className="relative">
                 <Image
-                    src="/bazar-hero.png"
+                    src="/banner.jpg"
                     alt="তাজা শাকসবজি ও নিত্যপ্রয়োজনীয় বাজারের পণ্য"
                     width={700}
                     height={500}

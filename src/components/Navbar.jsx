@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { authClient } from "../lib/auth-client";
 import { toast } from "react-toastify";
-// import CategoryNav from "./CategoryNav";
+import CategoryNav from "./CategoryNav";
 
 function Navbar() {
     const router = useRouter();
@@ -132,7 +132,7 @@ function Navbar() {
                 </div>
 
                 {/* Second Row: Category Links */}
-                {/* <CategoryNav /> */}
+                <CategoryNav />
 
             </div>
         </header>

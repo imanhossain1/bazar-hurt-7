@@ -5,7 +5,6 @@ async function AllProductsSection() {
     // সব product আনবে
     const products = await getProducts();
 
-    console.log(products, "all products");
 
     return (
         <section

@@ -7,11 +7,10 @@ import AllProductsSection from "../components/AllProductsSection";
 function HomePage() {
     return (
         <div>
-            home page
-            {/* <Hero/> */}
-            {/* <PriceUpSection/> */}
-            {/* <PriceDownSection/>  */}
-            {/* <AllProductsSection />  */}
+            <Hero/>
+            <PriceUpSection/>
+            <PriceDownSection/> 
+            <AllProductsSection /> 
         </div>
     );
 }
