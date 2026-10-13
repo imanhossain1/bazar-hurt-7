@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getCategories, getCategoryProducts } from "../../../lib/api";
 import CategoryProductList from "../../../components/CategoryProductList";
 
+
 async function CategoryDetailsPage({ params }) {
     const { slug } = await params;
 
