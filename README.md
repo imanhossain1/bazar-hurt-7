@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# বাজার দর | BazarDor
 
-## Getting Started
+**BazarDor** is a price-tracking web application that helps users explore daily market prices of essential products in Bangladesh. Users can compare current prices with previous prices and view product details to make better shopping decisions.
 
-First, run the development server:
+## 🚀 Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js 16** – React framework with App Router
+- **React** – Building interactive user interfaces
+- **TypeScript** – Type-safe development
+- **Tailwind CSS** – Styling and responsive design
+- **DaisyUI** – UI components
+- **Better Auth** – Authentication and session management
+- **MongoDB** – Database for user information
+- **REST API** – Fetching product and category data
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Key Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Daily Product Prices** – Browse essential products and their latest market prices.
+2. **Price Comparison** – Compare today's prices with previous prices to understand price changes.
+3. **Dynamic Product & Category Pages** – Explore individual products and filter products by category using dynamic routes.
+4. **Authentication System** – Sign up, sign in, and sign out securely using Better Auth.
+5. **Update Information Feature** – Allow authenticated users to update their profile information.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔐 Update Information Feature (C3)
 
-## Learn More
+Authenticated users can access their profile and update their personal information through the profile update page.
 
-To learn more about Next.js, take a look at the following resources:
+- Access the profile update page after signing in.
+- Update profile information through a form.
+- Validate user input before submitting changes.
+- Display success or error messages after the update attempt.
+- Keep profile information synchronized with the authentication system.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ Installation and Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
 
-## Deploy on Vercel
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Navigate to the project directory:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   cd bazar-dor
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Create a `.env` file and configure the required environment variables.
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 👨‍💻 Developer
+
+**Imran Hossain**
+
+---
+
+*BazarDor – Helping people make informed decisions about everyday market prices.*
