@@ -131,7 +131,7 @@ function Hero() {
                     <div className="relative rounded-[2rem] border border-white bg-white p-2.5 shadow-2xl shadow-emerald-900/10 sm:p-3">
                         <div className="relative overflow-hidden rounded-[1.5rem]">
                             <Image
-                                src="/banner.png"
+                                src="/ban.jpg"
                                 alt="তাজা শাকসবজি, চাল, ডাল, মাছ ও নিত্যপ্রয়োজনীয় বাজারের পণ্য"
                                 width={1536}
                                 height={1024}
